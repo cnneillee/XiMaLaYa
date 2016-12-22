@@ -5,8 +5,10 @@
 http://www.cnblogs.com/neillee/p/6208003.html#3586531 
 ## Python实现 
 使用 requests 请求数据，使用 json 库解析数据。
+<br>效果截图：![](https://github.com/neilleecn/XiMaLaYa/blob/master/screenshot/screenshot_py.png)
 ## Java实现 
 撰写并使用网络请求类（内含方法）请求数据，使用 fastjson 解析数据。
+<br>效果截图：![](https://github.com/neilleecn/XiMaLaYa/blob/master/screenshot/screenshot_java.png)
 ## 使用到的第三方库
 [requests](http://www.python-requests.org/en/master/)
 [fastjson](https://github.com/alibaba/fastjson)
