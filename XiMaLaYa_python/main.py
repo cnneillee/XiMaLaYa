@@ -64,7 +64,7 @@ if __name__ == '__main__':
     result = [{u'totalPlayCount': doc[u'play'], u'title': doc[u'title'], u'anchorman': doc[u'nickname'],
                u'info': doc[u'intro']} for doc in docs]
 
-    # 由于从接口获得的数据是从大到小，此处更改数据，从小到大
+    # 由于从接口获得的数据是不一定按照顺序的，此处更改数据，从大到小
     sortedResult = sorted(result, key=itemgetter(u'totalPlayCount'), reverse=True)
 
     for res in sortedResult:
